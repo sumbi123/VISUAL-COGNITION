@@ -1,0 +1,19 @@
+.card-img-top-fixed {
+    height: 200px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensures the image covers the entire space */
+    object-position: center; /* Centers the image within the container */
+}
+
+.card {
+    min-height: 100%; /* Ensures the card takes the full height available */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    margin-bottom: 1rem; /* Add margin below the title */
+}
